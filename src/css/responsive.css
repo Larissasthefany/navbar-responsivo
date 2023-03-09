@@ -50,3 +50,16 @@
     }
 
   }
+
+  @media only screen and (max-width: 628px){
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 380px;
+    }
+
+    .card-content h2{
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+  }
