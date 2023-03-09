@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
     .nav-center {
       max-width: 1170px;
       margin: 0 auto;
@@ -45,15 +45,8 @@
       color: var(--clr-primary-7);
     }
 
-    /* .container-images{
-      width: 400px;
-    } */
-
-  }
-
-  @media screen and (width:700) {
-     .container-images{
-      width: 400px;
+    #prev-button i, #next-button{
+      font-size: 20px;
     }
+
   }
-  
