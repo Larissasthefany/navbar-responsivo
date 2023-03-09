@@ -16,10 +16,6 @@
       display: none;
     }
 
-    /* .name-logo{
-      font-size: 1rem;
-    } */
-
     .links {
       height: auto;
       display: flex;
@@ -49,5 +45,15 @@
       color: var(--clr-primary-7);
     }
 
+    /* .container-images{
+      width: 400px;
+    } */
+
+  }
+
+  @media screen and (width:700) {
+    .container-images{
+      width: 400px;
+    }
   }
   

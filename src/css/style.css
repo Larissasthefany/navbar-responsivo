@@ -135,3 +135,48 @@ nav {
     align-items: center;
     min-height: 100vh;
   }
+
+  .container-slider{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+
+  .container-images{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    background-color: rgba(128, 128, 128, 0.762);
+  }
+
+  .slider{
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .on{
+    opacity: 1;
+  }
+
+  #prev-button, #next-button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  #prev-button i, #next-button{
+    font-size: 25px;
+    cursor: pointer;
+
+  }
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/1.png" type="image/x-icon">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
@@ -40,21 +41,14 @@
     </nav>
 
     <main>
-        <div class="imagens-slider">
-            <a href="#" id="seta-voltar" class="seta-voltar opacidade">
-                <i class="fas fa-arrow-left" id="seta"></i> 
-            </a>
-
-            <div class="img">
-                <div class="slide primeira-imagem mostrar"><div>
-                <div class="slide segunda-imagem"></div>
-                <div class="slide terceira-imagem"></div>
-                <div class="slide quarta-imagem"></div>
-            </div>
-    
-            <a href="#" id="seta-avancar" class="seta-avancar">
-                <i class="fas fa-arrow-right" id="seta"></i>
-            </a>
+        <div class="container-slider">
+            <button id="prev-button"><i class="fas fa-arrow-left" id="seta"></i></button>
+            <div class="container-images">
+                <img src="src/img/one.jpg" alt="toy shop" class="slider on">
+                <img src="src/img/three.jpg" alt="imagem de brinquedos" class="slider">
+                <img src="src/img/for.jpg" alt="" class="slider">
+        </div>
+        <button id="next-button"><i class="fas fa-arrow-right" id="seta"></i></button>
         </div>
     </main>
 
