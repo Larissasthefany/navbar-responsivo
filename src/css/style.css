@@ -150,8 +150,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
-    background-color: rgba(128, 128, 128, 0.762);
+    width: 500px;
   }
 
   .slider{
@@ -160,6 +159,7 @@ nav {
     position: absolute;
     width: 100%;
     border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.235);
   }
 
   .on{
@@ -167,8 +167,8 @@ nav {
   }
 
   #prev-button, #next-button{
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
     border: none;
     background-color: transparent;
     cursor: pointer;

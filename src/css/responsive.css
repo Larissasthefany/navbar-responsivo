@@ -52,7 +52,7 @@
   }
 
   @media screen and (width:700) {
-    .container-images{
+     .container-images{
       width: 400px;
     }
   }
