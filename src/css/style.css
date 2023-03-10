@@ -141,50 +141,58 @@ nav {
     min-height: 100vh;
     flex-direction: column;
     overflow: hidden;
+    max-width: 1020px;
+    margin: auto;
   }
 
   .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 10px; */
     margin-right: 13px;
   }
-
-  .cards-ofertas{
+  
+  .cards-de-ofertas{
+    display: flex;
+    justify-content: center;
     border-radius: 15px;
     overflow: hidden;
-    background-color: #F7F7F7;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    gap: 20px;
+    height:100%;
+    /* width: 100%; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
   }
 
   .cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 700px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    background-color: rgb(235, 224, 226);
+    border-radius: 20px;
   }
 
-  .card-content{
+  .cards-content{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-self: center;
     margin-left: 70px;
+    position: relative;
 }
   
-.card-content h2{
+.cards-content h2{
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 900;
   color: #424242;
-  font-family: 'Poppins', sans-serif;
-  line-height: 30px;
+  font-family: "Poppins" , sans-serif;
 }
 
-.card-content p{
+.cards-content p{
   color: #907E71;
   letter-spacing: 3px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -200,7 +208,7 @@ button{
   margin-top: 30px;
   background-color: #FFC555;
   color: #fff;
-  width: 130px;
+  width: 160px;
   padding: 10px;
   font-size: 1rem;
   cursor: pointer;
@@ -210,5 +218,72 @@ button{
 .botao:hover{
   background-color: #FC76A9;
 }
+
+.card-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 360px;
+  height: 210px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "poppins" , sans-serif;
+  background: url(../img/fundo-do-card.png) #F27149;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.botao-card{
+  margin-top: 10px;
+  background-color: #fff;
+  color: #000;
+  width: 160px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.botao-card:hover{
+  background-color: #FFC555;
+}
+
+.card-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 360px;
+  height: 210px;
+  color: #fff;
+  font-family: "poppins" , sans-serif;
+  font-size: 1.7rem;
+  border-radius: 20px;
+  background: url(../img/lego.png) #A993DC;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.botao-card-2{
+  margin-top: 10px;
+  background-color: #FFC555;
+  color: #fff;
+  width: 160px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.botao-card-2:hover{
+  background-color: #FC76A9 ;
+}
+
 
 

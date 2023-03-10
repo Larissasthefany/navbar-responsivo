@@ -51,11 +51,11 @@
 
   }
 
-  @media only screen and (max-width: 628px){
+  @media only screen and (max-width: 576px){
     .cards{
       display: grid;
       grid-template-columns: 1fr;
-      width: 380px;
+      width: 400px;
     }
 
     .card-content h2{
