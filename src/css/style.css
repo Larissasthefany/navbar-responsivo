@@ -47,7 +47,6 @@
   }
 
 body{
-    /* font-family: var(--ff-secondary); */
     background-color: var(--clr-grey-10);
     color: var(--clr-grey-1);
     line-height: 1.5;
@@ -84,7 +83,6 @@ nav {
     display: flex;
     align-items: center;
     text-align: center;
-    /* color: #222; */
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
@@ -108,8 +106,8 @@ nav {
     display: block;
     padding: 0.5rem 1rem;
     transition: var(--transition);
-    font-weight: 700;
-    color: #ED1C24;
+    font-weight: 400;
+    color: #2C2F38;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -141,7 +139,7 @@ nav {
     min-height: 100vh;
     flex-direction: column;
     overflow: hidden;
-    max-width: 1020px;
+    max-width: 940px;
     margin: auto;
   }
 
@@ -159,16 +157,15 @@ nav {
     overflow: hidden;
     gap: 20px;
     height:100%;
-    /* width: 100%; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
   }
 
   .cards{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    background-color: hsl(210, 36%, 96%);
     border-radius: 20px;
+    background: url(../img/background.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .cards-content{
@@ -232,7 +229,7 @@ button{
   border-radius: 20px;
   color: #fff;
   font-family: "poppins" , sans-serif;
-  background: url(../img/fundo-do-card.png) #F27149;
+  background: url(../img/fundo-do-card.png) #2C2F38;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,7 +262,7 @@ button{
   font-family: "poppins" , sans-serif;
   font-size: 1.7rem;
   border-radius: 20px;
-  background: url(../img/lego.png) #A993DC;
+  background: url(../img/lego.png) #27AAE1;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -283,6 +280,32 @@ button{
 
 .botao-card-2:hover{
   background-color: #FC76A9 ;
+}
+
+.produtos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 0 50px 0;
+}
+
+.book, .doll, .plush, .puzzle, .sedan{
+  border: 2px dotted rgba(0, 0, 0, 0.319);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.book, .puzzle{
+  background-color: #C03A2B;
+}
+
+.plush{
+  background-color: #2C2F38;
+}
+
+.doll, .sedan{
+  background-color: #2980BA;
 }
 
 
