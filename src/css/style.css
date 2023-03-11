@@ -167,7 +167,7 @@ nav {
   .cards{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    background-color: rgb(235, 224, 226);
+    background-color: hsl(210, 36%, 96%);
     border-radius: 20px;
   }
 
