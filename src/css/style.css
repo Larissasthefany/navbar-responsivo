@@ -282,30 +282,34 @@ button{
   background-color: #FC76A9 ;
 }
 
-.produtos{
+.categorias{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
+  width: 100%;
+}
+
+.item{
   margin: 50px 0 50px 0;
 }
 
-.book, .doll, .plush, .puzzle, .sedan{
-  border: 2px dotted rgba(0, 0, 0, 0.319);
+.categorias, p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #919391;
+}
+
+.itens {
+  width: 120px;
+  border: 3px dotted #919391;
   border-radius: 50%;
-  padding: 15px;
-}
-
-.book, .puzzle{
-  background-color: #C03A2B;
-}
-
-.plush{
-  background-color: #2C2F38;
-}
-
-.doll, .sedan{
-  background-color: #2980BA;
+  padding: 6px;
 }
 
 
