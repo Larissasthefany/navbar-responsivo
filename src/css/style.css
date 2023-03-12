@@ -129,7 +129,7 @@ nav {
   }
 
   .show-links {
-    height: 9rem;
+    height: 11rem;
   }
 
   main{
@@ -148,7 +148,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 13px;
+    /* margin-right: 13px; */
+    /* margin: 50px 0 50px 0; */
   }
   
   .cards-de-ofertas{
