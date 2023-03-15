@@ -404,8 +404,11 @@ button{
 
 .maior-preco{
   color: rgba(128, 128, 128, 0.688);
-  padding-right: 10px;
   text-decoration: line-through;
+}
+
+.menor-preco{
+  padding-right: 10px;
 }
 
 .comprar{
