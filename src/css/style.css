@@ -149,23 +149,10 @@ main {
   background-color: rgba(230, 221, 221, 0.083);
 }
 
-.sla {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-
-}
-
-.banner h1 {
-  margin: 120px 0 90px 0;
-  font-size: 6rem;
-  font-family: banner, sans-serif;
-}
-
-.titulo {
-  color: #ED1C24;
-  letter-spacing: 4px;
+.banner-mobile {
+  width: 960px;
+  margin: 20px 0 10px 0;
+  border-radius: 30px;
 }
 
 .imagem-card {
