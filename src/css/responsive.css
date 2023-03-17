@@ -95,7 +95,7 @@
    .lista-de-itens{
     flex-wrap: wrap;
     width: 320px;
-    gap: 13px;
+    gap: 10px;
     margin: auto;
    }
 
