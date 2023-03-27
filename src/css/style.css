@@ -137,14 +137,12 @@ main {
   overflow: hidden;
   max-width: 990px;
   margin: 0 auto;
-  background-color: rgba(230, 221, 221, 0.083);
 }
 
-/* .banner-mobile {
-  width: 960px;
-  margin: 20px 0 10px 0;
-  border-radius: 30px;
-} */
+.banner{
+  margin: 90px 0 0 0;
+  padding-right: 30px;
+}
 
 .imagem-card {
   display: block;
@@ -162,7 +160,7 @@ main {
   overflow: hidden;
   gap: 20px;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .cards {
@@ -496,13 +494,13 @@ button.comprar:hover {
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 13px;
 }
 
 input {
   margin: 0 auto;
-  width: 230px;
-  padding: 8px;
+  width: 240px;
+  padding: 9px;
   border-radius: 50px;
   border: none;
   font-size: 0.9rem;
@@ -517,8 +515,14 @@ input::placeholder {
 
 input.submit {
   width: 150px;
+  padding: 10px;
   letter-spacing: 1px;
   background-color: #fff;
+}
+
+.submit:hover{
+  background-color: #7354bdaa;
+  color: #fff;
 }
 
 .card-sale2 {
@@ -556,6 +560,11 @@ input.submit {
   padding: 10px;
   border-radius: 20px;
   border: none;
+}
+
+.btn:hover{
+  background-color: #FFC555;
+  color: #fff;
 }
 
 
