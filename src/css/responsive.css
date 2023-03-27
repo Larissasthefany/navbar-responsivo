@@ -58,6 +58,7 @@
     width: 110px;
     height: 60px;
   }
+
   /* .banner {
     text-align: center;
     font-size: 2rem;
@@ -114,7 +115,7 @@
     align-self: center;
     width: 80px;
     margin: 0;
-    }
+  }
 
   .sessao-de-produtos h1 {
     margin-top: 40px;
@@ -141,6 +142,59 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+  }
+
+  .card-de-ofertas2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .card-ofertas {
+    max-width: 310px;
+    margin: 0 auto;
+  }
+
+  .card-sale {
+    border: none;
+    max-width: 300px;
+  }
+
+  .card-sale p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .card-sale2 {
+    max-width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .card2 {
+    border: none;
+  }
+
+  .super-oferta {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .sobre-super-oferta {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 0.9rem;
   }
 
   .listagem .lista {
