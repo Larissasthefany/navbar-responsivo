@@ -32,12 +32,17 @@
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
-  --ff-primary:'Open Sans', sans-serif;
+  --ff-primary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --max-width: 1170px;
   --fixed-width: 620px;
+}
+
+@font-face {
+  font-family: logo;
+  src: url(../Makhina/makhina.ttf);
 }
 
 body {
@@ -73,25 +78,12 @@ body {
   transform: rotate(90deg);
 }
 
-/* .name-logo {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-weight: 900;
-  font-family: banner, sans-serif;
-  font-size: 1.2rem;
-  color: #ED1C24;
-  gap: 5px;
-} */
-
-/* .name-log0,
-span {
-  color: #27AAE1;
-} */
-
-.logo {
-  width: 100px;
-  height: 50px;
+.name-logo {
+  font-family: logo;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #F27649;
 }
 
 .links a {
@@ -102,8 +94,8 @@ span {
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
-  font-weight: 400;
-  color: #2C2F38;
+  font-weight: 700;
+  color: #0000009c;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -118,6 +110,14 @@ span {
   font-size: 1.2rem;
 }
 
+.social-icons i {
+  color: #0000009c;
+}
+
+.social-icons i:hover {
+  color: #27AAE1;
+}
+
 .links {
   height: 0;
   overflow: hidden;
@@ -125,7 +125,7 @@ span {
 }
 
 .show-links {
-  height: 12rem;
+  height: 11rem;
 }
 
 main {
@@ -139,7 +139,7 @@ main {
   margin: 0 auto;
 }
 
-.banner{
+.banner {
   margin: 90px 0 0 0;
   padding-right: 30px;
 }
@@ -357,9 +357,12 @@ p {
   margin: auto;
   width: 300px;
   height: 510px;
-  box-shadow: rgba(100, 100, 111, 0.036) 0px 7px 29px 0px;
   border-radius: 20px;
   margin-bottom: 50px;
+  border: 1px solid #91939138;
+  position: relative;
+  transition: transform 0.5s ease;
+  box-shadow: rgba(100, 100, 111, 0.036) 0px 7px 29px 0px;
   -moz-transform: scale(1.0);
   -webkit-transform: scale(1.0);
   -o-transform: scale(1.0);
@@ -370,16 +373,15 @@ p {
   -moz-transition: transform 0.5s ease;
   -webkit-transition: transform 0.5s ease;
   transition: transform 0.5s ease;
-  position: relative;
   border: 1px solid #E7E5E5;
 }
 
 .produtos:hover {
+  transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
   opacity: 0.9;
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .nome {
@@ -520,7 +522,7 @@ input.submit {
   background-color: #fff;
 }
 
-.submit:hover{
+.submit:hover {
   background-color: #7354bdaa;
   color: #fff;
 }
@@ -562,7 +564,7 @@ input.submit {
   border: none;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #FFC555;
   color: #fff;
 }
@@ -617,13 +619,43 @@ input.submit {
   border-radius: 10px;
   width: 230px;
   height: 260px;
-  border: 1px solid #d7d1d1c6;
-  background-color: #f7f7f7ae;
+  border: 1px solid #d7d1d14c;
   flex-direction: column;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1.5s ease;
 }
 
 .cartao-imagem img {
   width: 80%;
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cartao-imagem:hover {
+  transform: rotateY(180deg);
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 2px solid rgba(255, 255, 0, 0.733);
+  transform: rotateY(180deg);
+  background-color: #f7f7f768;
+  ;
 }
 
 
@@ -657,4 +689,68 @@ input.submit {
 .listagem .lista.ativo {
   background-color: #FC76A9;
   color: #fff;
+}
+
+.sessao-do-blog{
+  margin: 5px 0 30px 0;
+}
+
+.title-blog {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.subtitulo-blog {
+  margin: 13px 0 50px 0;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.our-blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.image-blog img {
+  width: 270px;
+  height: 340px;
+}
+
+.about-blog {
+  width: 197px;
+  height: 340px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  color: #424242;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#calendario {
+  font-size: 1.2rem;
+}
+
+.data {
+  color: #424242;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.text-blog {
+  margin-top: 10px;
+  text-align: unset;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
 }

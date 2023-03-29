@@ -212,5 +212,22 @@
     margin-bottom: 20px;
   }
 
+ .title-blog, .subtitulo-blog{
+  text-align: center;
+ }
+
+  .our-blog{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
 
 }

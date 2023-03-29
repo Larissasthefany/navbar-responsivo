@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
-
     <link rel="stylesheet" href="src/css/font-awsome.min.css">
     <title>Toys</title>
 </head>
@@ -20,18 +19,18 @@
         <div class="nav-center">
             <div class="nav-header">
                 <a href="#" class="name-logo ">
-                    <img src="src/img/logo.png" class="logo" alt="logo da toy story">
-                    <!-- <h2>Toy <span>Shop</span></h2> -->
+                    <!-- <img src="src/img/logo.png" class="logo" alt="logo da toy story"> -->
+                    <h1 class="name-logo">Toys</h1>
                 </a>
                 <button class="nav-toggle">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
             <ul class="links">
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">toy</a></li>
-                <li><a href="#">contact us</a></li>
+                <li><a href="#home">home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">contact us</a></li>
             </ul>
 
             <ul class="social-icons">
@@ -45,11 +44,11 @@
     <main>
         <div class="banner">
             <a href="#">
-                <img src="src/img/toys.png" alt="Imagem de um astronauta">
+                <img src="src/img/toys.png" alt="Toys">
             </a>
         </div>
 
-        <section class="cards-de-ofertas">
+        <section class="cards-de-ofertas" id="home">
             <div class="cards">
                 <div class="cards-content">
                     <h2>Exclusive Toys</h2>
@@ -216,7 +215,7 @@
         </section>
 
         <div class="cartao-de-listagem">
-            <h1 class="categoria"> Catgorias</h1>
+            <h1 class="categoria" id="categories">Categories</h1>
             <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, cupiditate debitis quia
                 tempore quas.</p>
             <div class="card">
@@ -245,42 +244,86 @@
                 <div class="cartao-imagens aberto" id="cartao-kids">
                     <div class="lista-de-itens">
                         <div class="cartao-imagem">
-                            <img src="src/img/angry-birds.png" alt="Angry birds">
-                            <!-- <span>Teste</span> -->
-                        </div>
-                        <div class="cartao-imagem">
-                            <img src="src/img/urso.png" alt="Urso">
-                            <!-- <span>Teste</span> -->
-                        </div>
-                        <div class="cartao-imagem">
-                            <img src="src/img/bateria.png" alt="Bateria de brinquedo">
-                            <!-- <span>Teste</span> -->
-                        </div>
 
-                        <div class="cartao-imagem">
-                            <img src="src/img/escorrego.png" alt="Escorregador">
-                            <!-- <span>Teste</span> -->
-                        </div>
+                            <div class="front imagem">
+                                <img src="src/img/angry-birds.png" alt="Angry birds">
+                            </div>
+                            <div class="back imagem">
+                                <img src="src/img/angry-birds.png" alt="Angry birds">
+                            </div>
 
-                        <div class="cartao-imagem">
-                            <img src="src/img/coelho.png" alt="Coelho">
-                            <!-- <span>Teste</span> -->
                         </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/carrinho.png" alt="Carrinho">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/urso.png" alt="Urso">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/urso.png" alt="Urso">
+                            </div>
                         </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/microfone.png" alt="Microfone de brinquedo">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/bateria.png" alt="Bateria de brinquedo">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/bateria.png" alt="Bateria de brinquedo">
+                            </div>
                         </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/escorrego.png" alt="Escorregador">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/escorrego.png" alt="Escorregador">
+                            </div>
                         </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/princesas.png" alt="Princesas da Disney">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/coelho.png" alt="Coelho">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/coelho.png" alt="Coelho">
+                            </div>
+                        </div>
+                        <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/carrinho.png" alt="Carrinho">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/carrinho.png" alt="Carrinho">
+                            </div>
+                        </div>
+                        <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/microfone.png" alt="Microfone de brinquedo">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/microfone.png" alt="Microfone de brinquedo">
+                            </div>
+                        </div>
+                        <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
+                            </div>
+                        </div>
+                        <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/princesas.png" alt="Princesas da Disney">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/princesas.png" alt="Princesas da Disney">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -288,12 +331,22 @@
                 <div class="cartao-imagens " id="cartao-girl">
                     <div class="lista-de-itens">
                         <div class="cartao-imagem">
-                            <img src="src/img/princesas.png" alt="Princesas da Disney">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/princesas.png" alt="Princesas da Disney">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/princesas.png" alt="Princesas da Disney">
+                            </div>
                         </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/urso-de-pelucia.png" alt="Urso de pelucia">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -301,17 +354,35 @@
                 <div class="cartao-imagens " id="cartao-boy">
                     <div class="lista-de-itens">
                         <div class="cartao-imagem">
-                            <img src="src/img/angry-birds.png" alt="Angry birds">
-                            <!-- <span>Teste</span> -->
-                        </div>
-                        <div class="cartao-imagem">
-                            <img src="src/img/kit-de-dinossauro.png" alt="Dinossauro">
-                            <!-- <span>Teste</span> -->
-                        </div>
 
+                            <div class="front imagem">
+                                <img src="src/img/angry-birds.png" alt="Angry birds">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/angry-birds.png" alt="Angry birds">
+                            </div>
+
+                        </div>
                         <div class="cartao-imagem">
-                            <img src="src/img/coelho.png" alt="Coelho">
-                            <!-- <span>Teste</span> -->
+
+                            <div class="front imagem">
+                                <img src="src/img/kit-de-dinossauro.png" alt="Angry birds">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/kit-de-dinossauro.png" alt="Angry birds">
+                            </div>
+
+                        </div>
+                        <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/coelho.png" alt="Coelho">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/coelho.png" alt="Coelho">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -319,23 +390,69 @@
                 <div class="cartao-imagens " id="cartao-acessorios">
                     <div class="lista-de-itens">
                         <div class="cartao-imagem">
-                            <img src="src/img/escorrego.png" alt="Escorregador">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/escorrego.png" alt="Escorregador">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/escorrego.png" alt="Escorregador">
+                            </div>
                         </div>
-                        <div class="cartao-imagem">
-                            <img src="src/img/bicicleta.png" alt="Bicicleta">
-                            <!-- <span>Teste</span> -->
+
+                       <div class="cartao-imagem">
+                            <div class="front imagem">
+                                <img src="src/img/bicicleta.png" alt="bicicleta">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/bicicleta.png" alt="bicicleta">
+                            </div>
                         </div>
 
                         <div class="cartao-imagem">
-                            <img src="src/img/carrinho.png" alt="carrinho">
-                            <!-- <span>Teste</span> -->
+                            <div class="front imagem">
+                                <img src="src/img/carrinho.png" alt="Carrinho">
+                            </div>
+
+                            <div class="back imagem">
+                                <img src="src/img/carrinho.png" alt="Carrinho">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
+
+        <section class="sessao-do-blog" id="blog">
+            <h1 class="title-blog">Our blog</h1>
+            <p class="subtitulo-blog" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
+            <div class="our-blog">
+                    <div class="blog">
+                        <div class="image-blog">
+                            <img src="src/img/bee-family.jpg" alt="">
+                        </div>
+                        <div class="about-blog">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <i class="fas fa-calendar-alt" id="calendario"></i>
+                            <span class="data">06.05.2022</span>
+                            <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi ipsum quos.</p>
+                        </div>
+                    </div>
+
+                    <div class="blog">
+                        <div class="image-blog">
+                            <img src="src/img/carrossel.jpg" alt="">
+                        </div>
+                        <div class="about-blog">
+                            <h3>Lorem ipsum dolor sit.</h3>
+                            <i class="fas fa-calendar-alt" id="calendario"></i>
+                            <span class="data">10.06.2022</span>
+                            <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi ipsum quos, fugit labore nulla.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
     </main>
 
