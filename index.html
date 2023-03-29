@@ -44,7 +44,8 @@
     <main>
         <div class="banner">
             <a href="#">
-                <img src="src/img/toys.png" alt="Toys">
+                <!-- <img src="src/img/toys.png" alt="Toys"> -->
+                <h1>Toys</h1>
             </a>
         </div>
 
@@ -399,7 +400,7 @@
                             </div>
                         </div>
 
-                       <div class="cartao-imagem">
+                        <div class="cartao-imagem">
                             <div class="front imagem">
                                 <img src="src/img/bicicleta.png" alt="bicicleta">
                             </div>
@@ -426,33 +427,57 @@
 
         <section class="sessao-do-blog" id="blog">
             <h1 class="title-blog">Our blog</h1>
-            <p class="subtitulo-blog" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
+            <p class="subtitulo-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum!</p>
             <div class="our-blog">
-                    <div class="blog">
-                        <div class="image-blog">
-                            <img src="src/img/bee-family.jpg" alt="">
-                        </div>
-                        <div class="about-blog">
-                            <h3>Lorem ipsum dolor sit.</h3>
-                            <i class="fas fa-calendar-alt" id="calendario"></i>
-                            <span class="data">06.05.2022</span>
-                            <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi ipsum quos.</p>
-                        </div>
+                <div class="blog">
+                    <div class="image-blog">
+                        <img src="src/img/bee-family.jpg" alt="">
                     </div>
-
-                    <div class="blog">
-                        <div class="image-blog">
-                            <img src="src/img/carrossel.jpg" alt="">
-                        </div>
-                        <div class="about-blog">
-                            <h3>Lorem ipsum dolor sit.</h3>
-                            <i class="fas fa-calendar-alt" id="calendario"></i>
-                            <span class="data">10.06.2022</span>
-                            <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi ipsum quos, fugit labore nulla.</p>
-                        </div>
+                    <div class="about-blog">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <i class="fas fa-calendar-alt" id="calendario"></i>
+                        <span class="data">06.05.2022</span>
+                        <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                            asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi
+                            ipsum quos.</p>
                     </div>
                 </div>
+
+                <div class="blog">
+                    <div class="image-blog">
+                        <img src="src/img/carrossel.jpg" alt="">
+                    </div>
+                    <div class="about-blog">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <i class="fas fa-calendar-alt" id="calendario"></i>
+                        <span class="data">10.06.2022</span>
+                        <p class="text-blog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+                            asperiores? Corporis quod et suscipit natus nisi mollitia sapiente itaque laboriosam quasi
+                            ipsum quos, fugit labore nulla.</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <div class="form">
+            <form action="https://formsubmit.co/larasalvatore82@gmail.com" method="POST">
+                <h1 class="titulo-form">Contact Us</h1>
+                <label for="">Nome</label>
+                <input type="text" name="name" required>
+
+
+                <label for="">Email</label>
+                <input type="email" name="email" required>
+
+                <label for="">Contato</label>
+                <input type="number" name="number" id="number" placeholder="EX: (00) 9000-0000" type="number">
+
+                <label for="">Mensagem</label>
+                <textarea name="message" id=""></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value=" https://larissasthefany.github.io//obrigado.html">
+            </form>
+        </div>
 
     </main>
 
