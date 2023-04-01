@@ -54,6 +54,12 @@
 
 @media only screen and (max-width: 576px) {
 
+
+  .banner img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 5px;
+  }
   .banner h1 {
     text-align: center;
     font-size: 4rem;
@@ -165,6 +171,7 @@
 
   .card2 {
     border: none;
+    background-color: #F27149;
   }
 
   .super-oferta {
@@ -236,5 +243,20 @@
   .form {
 
     width: 17rem;
+  }
+
+
+  .link {
+    flex-direction: column;
+  }
+
+  .redes i{
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .direitos h3{
+    text-align: center;
+    padding: 9px;
   }
 }
